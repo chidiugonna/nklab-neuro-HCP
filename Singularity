@@ -275,7 +275,7 @@ sed -i 's\#!/bin/sh\#!/bin/bash\g' $FSLDIR/bin/bedpostx_postproc_gpu.sh
 mv /changePython2.sh /opt/bin/changePython2.sh
 mv /changePython3.sh /opt/bin/changePython3.sh
 
-./opt/bin/changePython3.sh
+. /opt/bin/changePython3.sh
 export MYBASEDIR=/opt
 cd ${MYBASEDIR}
 git clone https://github.com/edickie/ciftify.git
