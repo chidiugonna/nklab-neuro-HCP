@@ -13,6 +13,7 @@ cp ./src/startup.sh $SINGULARITY_ROOTFS
 cp ./src/readme $SINGULARITY_ROOTFS
 cp ./src/version $SINGULARITY_ROOTFS
 
+
 %environment
 LD_LIBRARY_PATH=/usr/local/cuda/lib64:/.singularity.d/libs:/usr/lib:/opt/freesurfer/mni/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH
